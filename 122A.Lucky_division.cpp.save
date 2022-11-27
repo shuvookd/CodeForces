@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    if(n / 10 % 10 == 4 && n / 10 % 10 == 7 || n % 10 )
+    int neww = n/10 % 10;
+    int ne = n % 10;
+    cout<<neww<<endl;
+    cout<<ne;
+return 0;
+}
